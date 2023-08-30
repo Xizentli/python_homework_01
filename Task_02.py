@@ -7,3 +7,11 @@
 # n = 6 -> 1 4 1  
 # n = 24 -> 4 16 4    
 # n = 60 -> 10 40 10
+
+origami = int(input('Введите общее количество журавликов:'))
+one = origami/6
+petia = int(one)
+serg = int(one)
+katia = (petia + serg) * 2
+
+print('Петя =', petia, ' Сергей =', serg, ' Катя =', katia)
